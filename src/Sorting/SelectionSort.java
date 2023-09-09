@@ -1,3 +1,5 @@
+package Sorting;
+
 import java.util.Arrays;
 
 import static Sorting.Swap.swap;
