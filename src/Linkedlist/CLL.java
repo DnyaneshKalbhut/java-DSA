@@ -59,4 +59,93 @@ public class CLL {
             this.val = val;
         }
     }
+
+    //questions
+
+    //find a cycle
+    public static boolean findCycle(Node head){
+        Node fast=head;
+        Node slow=head;
+    while (fast!=null && fast.next!=null){
+        fast=fast.next.next;
+        slow=slow.next;
+        if (fast==slow){
+            return true;
+        }
+    }
+    return false;
+    }
+
+    public static Node DetectCycle(Node head){
+        int length=0;
+        Node fast=head;
+        Node slow=head;
+        while (fast!=null && fast.next!=null){
+            fast=fast.next.next;
+            slow=slow.next;
+            if (fast==slow){
+                length=LengthCycle(slow);
+        break;
+            }
+        }
+        if (length==0){
+            return null;
+    }
+        Node f = head;
+        Node s = head;
+        while (length>0){
+            s=s.next;
+            length--;
+        }
+        while (f!=s){
+            f=f.next;
+            s=s.next;
+        }
+
+        return s;
+}
+
+public static boolean isHapy(int n){
+        int slow = n;
+        int fast =n;
+
+        do {
+            slow=square(slow);
+            fast=square(square(fast));
+        }while (slow!=fast);
+        if (slow==1){
+            return true;
+        }
+        return false;
+}
+private  static int square(int num){
+        int ans=0;
+        while (num>0){
+           int rem= num%10;
+            ans+=rem*rem;
+           num= num/10;
+        }
+        return ans;
+}
+
+    public static int LengthCycle(Node head){
+        Node fast=head;
+        Node slow=head;
+        while (fast!=null && fast.next!=null){
+            fast=fast.next.next;
+            slow=slow.next;
+            if (fast==slow){
+                Node temp =slow;
+                int length=0;
+                do {
+                    temp=slow.next;
+                    length++;
+                }while (temp!=slow);
+            return length;
+            }
+        }
+        return 0;
+    }
+
+
 }
