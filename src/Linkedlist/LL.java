@@ -108,6 +108,19 @@ public class LL {
         System.out.print("end");
     }
 
+    public void insertRec(int val,int index){
+      head= insertRec(val,index,head);
+    }
+    private Node insertRec(int value , int index, Node node){
+        if (index==0){
+            Node temp = new Node(value,node);
+            size++;
+            return temp;
+        }
+      node.next=insertRec(value,index--,node.next);
+        return node;
+    }
+
     private class Node{
        private int val ;
        private Node next;
@@ -120,5 +133,76 @@ public class LL {
             this.val = val;
             this.next = next;
         }
+    }
+
+
+    //questions
+
+    public void duplicates() {
+        Node node = head;
+
+        while (node.next != null) {
+            if (node.val == node.next.val) {
+                node.next = node.next.next;
+                size--;
+            } else {
+                node = node.next;
+            }
+        }
+        tail = node;
+        tail.next = null;
+    }
+    //question2
+    public static LL merge(LL first, LL second){
+        Node f=first.head;
+        Node s = second.head;
+        LL ans = new LL();
+        while (f.next!=null && s.next!=null){
+            if (f.val<s.val){
+          ans.insertLast(f.val);
+            f= f.next;
+            }else {
+              ans.insertLast(s.val);
+              s=s.next;
+            }
+        }
+
+        while (f.next!=null){
+            ans.insertLast(f.val);
+            f=f.next;
+        }
+        while (s.next!=null){
+            ans.insertLast(s.val);
+            s=s.next;
+        }
+        return ans;
+    }
+
+    public static void main(String[] args) {
+        LL list= new LL();
+//        list.insertFirst(1);
+//        list.insertFirst(1);
+//        list.insertFirst(2);
+//        list.insertFirst(3);
+//        list.insertFirst(3);
+//        list.display();
+//        list.duplicates();
+//        list.display();
+
+        LL first = new LL();
+        first.insertLast(1);
+        first.insertLast(2);
+        first.insertLast(3);
+        first.insertLast(4);
+
+        LL second =new LL();
+        second.insertLast(1);
+        second.insertLast(4);
+        second.insertLast(6);
+        second.insertLast(7);
+
+        LL ans = LL.merge(first,second);
+     ans.display();
+
     }
 }
