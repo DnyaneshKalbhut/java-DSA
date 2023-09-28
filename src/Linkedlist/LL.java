@@ -178,6 +178,129 @@ public class LL {
         return ans;
     }
 
+    //find middle
+
+    public static Node middleNode(Node head){
+        Node f =head;
+        Node s =head;
+        while (f!=null &&f.next!=null){
+            f = f.next.next;
+            s=s.next.next;
+        }
+        return s;
+    }
+
+    //reverse a linkedList by recursion
+
+     public  void reverseLL(Node node){
+        if (node==tail){
+            node=head;
+            return;
+        }
+        reverseLL(node.next);
+        tail.next=node;
+        tail=node;
+        tail.next=null;
+    }
+
+    //iterative method
+    public Node reverse(Node node){
+        if (size<2){
+            return node;
+        }
+        Node prev=null;
+        Node present=head;
+        Node next = present.next;
+
+        while (prev.next!=null){
+            present.next=prev;
+            prev=present;
+            if (next!=null){
+                next=next.next;
+            }
+        }
+        return prev;
+    }
+
+    //is palondrone
+    public boolean isPlalindrome(Node head){
+
+        Node mid = middleNode(head);
+        Node secHead=reverse(mid);
+        Node reReverseHead=secHead;
+
+        while (head!=null && secHead!=null){
+            if (head.val!=secHead.val){
+                break;
+            }
+            head=head.next;
+            secHead=secHead.next;
+        }
+        reverse(reReverseHead);
+        if (head==null&& secHead==null){
+            return true;
+        }
+        return false;
+    }
+
+
+    //reorde list
+    public void reorder(Node node){
+        if (head==null || head.next==null){
+            return;
+        }
+
+        Node mid = middleNode(head);
+        Node hs=reverse(mid);
+        Node hf=head;
+
+        while (hf!=null && hs!=null){
+            Node temp =hf.next;
+            hf.next=hs;
+            hf=temp;
+
+            temp=hs.next;
+            hs.next=hf;
+            hs=temp;
+        }
+
+        if (hf!=null){
+            hf.next=node;
+        }
+    }
+
+
+    //rotate LL
+    public Node rotate(Node head ,int k){
+        if (k<=0 || head==null || head.next==null){
+            return head;
+        }
+        Node lst = head;
+        int length=0;
+        while (lst.next!=null){
+            lst=lst.next;
+        length++;
+        }
+        lst.next=head;
+
+        int rotation = k%length;
+        int skip =length-rotation;
+
+       Node newLast=head;
+        for (int i = 0; i <skip-1 ; i++) {
+           newLast=newLast.next;
+           head=newLast.next;
+           newLast.next=null;
+       }
+
+
+
+
+
+
+        return head;
+    }
+
     public static void main(String[] args) {
         LL list= new LL();
 //        list.insertFirst(1);
