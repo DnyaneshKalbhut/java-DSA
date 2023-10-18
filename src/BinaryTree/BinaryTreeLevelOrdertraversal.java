@@ -49,9 +49,68 @@ public class BinaryTreeLevelOrdertraversal {
             }
             result.add(currentLevel);
         }
-
-
-
         return result;
+    }
+
+
+
+    //Right side View
+    public List<Integer> RightSideView(TreeNode root){
+    List<Integer> result =new ArrayList<>();
+
+    if (root==null){
+        return result;
+    }
+    Queue<TreeNode> queue = new LinkedList<>();
+    queue.offer(root);
+    while (!queue.isEmpty()){
+        int LevelSize = queue.size();
+        for (int i = 0; i <LevelSize ; i++) {
+            TreeNode currentNode = queue.poll();
+          if (i==LevelSize-1){
+              result.add(currentNode.val);
+          }
+
+            if (currentNode.left!=null){
+                queue.offer(currentNode.left);
+            }
+            if (currentNode.right!=null){
+                queue.offer(currentNode.right);
+            }
+        }
+    }
+        return result;
+    }
+
+
+    //Tree is Symmetric or not
+
+    public boolean isSymmetric(TreeNode root){
+        if (root==null){
+            return false;
+        }
+        Queue<TreeNode> queue = new LinkedList();
+        queue.add(root.left);
+        queue.add(root.right);
+
+        while (!queue.isEmpty()) {
+            TreeNode left = queue.poll();
+            TreeNode right = queue.poll();
+            if (left==null && right==null){
+                continue;
+            }
+            if (left==null || right==null){
+               return   false;
+            }
+
+            if (left.val!=right.val){
+                return false;
+            }
+            queue.add(left.left);
+            queue.add(right.right);
+            queue.add(left.right);
+            queue.add(right.left);
+        }
+    return true;
     }
 }
