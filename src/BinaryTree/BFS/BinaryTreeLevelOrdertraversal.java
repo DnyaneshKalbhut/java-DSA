@@ -1,4 +1,4 @@
-package BinaryTree;
+package BinaryTree.BFS;
 
 import com.sun.source.tree.Tree;
 
