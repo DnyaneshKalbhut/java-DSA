@@ -4,29 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71eb0e64-40da-4a91-b57b-0d963edd0088" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA Revision.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/FirstAndlastPosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/MountainArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/RotatedBinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/SearchInMatrices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/SearchInMountainarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/binarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/celing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/floor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/infiniteArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/orderAgnostic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/searchInSortedMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/CyclicSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/Swap.java" afterDir="false" />
+    <list default="true" id="71eb0e64-40da-4a91-b57b-0d963edd0088" name="Changes" comment="tree">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/DFS/LowestAncestor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/DFS/PathSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +24,42 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;assignee&quot;: &quot;DnyaneshKalbhut&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+    &quot;assignee&quot;: &quot;DnyaneshKalbhut&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="e2cb2473-0946-40d9-b920-e07ea3a21435" />
+        <option name="url" value="https://github.com/DnyaneshKalbhut/java-DSA.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/BinaryTree/Main.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2UvB6yD58tDIE0lleXcqcqSd7EC" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -56,18 +68,24 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Asus/IdeaProjects/DSA Revision/src/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CyclicSort">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.BubbleSort" />
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="BinaryTree.BFS" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.LL">
+    <configuration name="LL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Linkedlist.LL" />
       <module name="DSA Revision" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sorting.*" />
+          <option name="PATTERN" value="Linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CyclicSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.CyclicSort" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinaryTree.Main" />
       <module name="DSA Revision" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sorting.*" />
+          <option name="PATTERN" value="BinaryTree.BFS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.InsertionSort" />
+    <configuration name="QueueMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StackandQueue.QueueMain" />
       <module name="DSA Revision" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sorting.*" />
+          <option name="PATTERN" value="StackandQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchInMatrices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearch.SearchInMatrices" />
+    <configuration name="StackMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StackandQueue.StackMain" />
       <module name="DSA Revision" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BinarySearch.*" />
+          <option name="PATTERN" value="StackandQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,20 +132,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SelectionSort" />
+    <configuration name="TwoStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StackandQueue.TwoStack" />
       <module name="DSA Revision" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StackandQueue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CyclicSort" />
-        <item itemvalue="Application.InsertionSort" />
-        <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.SearchInMatrices" />
+        <item itemvalue="Application.TwoStack" />
+        <item itemvalue="Application.QueueMain" />
+        <item itemvalue="Application.StackMain" />
+        <item itemvalue="Application.LL" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +163,202 @@
       <option name="presentableId" value="Default" />
       <updated>1693810006266</updated>
     </task>
+    <task id="LOCAL-00001" summary="BS que">
+      <option name="closed" value="true" />
+      <created>1693909564716</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693909564716</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Sorting">
+      <option name="closed" value="true" />
+      <created>1694181416061</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694181416061</updated>
+    </task>
+    <task id="LOCAL-00003" summary="patterns">
+      <option name="closed" value="true" />
+      <created>1694287153899</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694287153899</updated>
+    </task>
+    <task id="LOCAL-00004" summary="sorting">
+      <option name="closed" value="true" />
+      <created>1694287176949</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694287176949</updated>
+    </task>
+    <task id="LOCAL-00005" summary="sorting">
+      <option name="closed" value="true" />
+      <created>1694707367291</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694707367291</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Recursion">
+      <option name="closed" value="true" />
+      <created>1694713389017</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694713389017</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Recursion">
+      <option name="closed" value="true" />
+      <created>1694954699249</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1694954699249</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Recursion">
+      <option name="closed" value="true" />
+      <created>1694975448389</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1694975448389</updated>
+    </task>
+    <task id="LOCAL-00009" summary="String">
+      <option name="closed" value="true" />
+      <created>1695184388776</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1695184388776</updated>
+    </task>
+    <task id="LOCAL-00010" summary="recursion">
+      <option name="closed" value="true" />
+      <created>1695233592076</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1695233592076</updated>
+    </task>
+    <task id="LOCAL-00011" summary="recursion">
+      <option name="closed" value="true" />
+      <created>1695304903887</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1695304903887</updated>
+    </task>
+    <task id="LOCAL-00012" summary="LinkedList">
+      <option name="closed" value="true" />
+      <created>1695671705375</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1695671705375</updated>
+    </task>
+    <task id="LOCAL-00013" summary="LinkedList">
+      <option name="closed" value="true" />
+      <created>1695805488688</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1695805488688</updated>
+    </task>
+    <task id="LOCAL-00014" summary="LinkedList">
+      <option name="closed" value="true" />
+      <created>1695922936435</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1695922936435</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Stack and queue">
+      <option name="closed" value="true" />
+      <created>1696232932201</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1696232932201</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Stack and queue">
+      <option name="closed" value="true" />
+      <created>1696955501948</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1696955501948</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Stack and queue">
+      <option name="closed" value="true" />
+      <created>1697349092640</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1697349092640</updated>
+    </task>
+    <task id="LOCAL-00018" summary="tree">
+      <option name="closed" value="true" />
+      <created>1697435634515</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1697435634515</updated>
+    </task>
+    <task id="LOCAL-00019" summary="tree">
+      <option name="closed" value="true" />
+      <created>1697609428986</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1697609428994</updated>
+    </task>
+    <task id="LOCAL-00020" summary="tree">
+      <option name="closed" value="true" />
+      <created>1697822557580</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1697822557580</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="767e84ec-6f09-4ba3-83b0-6ed24cdccf9a" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="767e84ec-6f09-4ba3-83b0-6ed24cdccf9a">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="BS que" />
+    <MESSAGE value="Sorting" />
+    <MESSAGE value="patterns" />
+    <MESSAGE value="sorting" />
+    <MESSAGE value="Recursion" />
+    <MESSAGE value="String" />
+    <MESSAGE value="recursion" />
+    <MESSAGE value="LinkedList" />
+    <MESSAGE value="Tree" />
+    <MESSAGE value="tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -153,6 +371,29 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Sorting/MissingNo.java</url>
+          <line>10</line>
+          <properties class="Sorting.MissingNo" method="missNum">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Recursion/FibonaciiNo.java</url>
+          <line>6</line>
+          <properties class="Recursion.FibonaciiNo" method="fibo">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Recursion/FibonaciiNo.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
