@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71eb0e64-40da-4a91-b57b-0d963edd0088" name="Changes" comment="tree">
+    <list default="true" id="71eb0e64-40da-4a91-b57b-0d963edd0088" name="Changes" comment="Hashing">
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinaryTree/DFS/LowestAncestor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinaryTree/DFS/PathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hashing/HashMapCode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -323,7 +322,39 @@
       <option name="project" value="LOCAL" />
       <updated>1697822557580</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="tree">
+      <option name="closed" value="true" />
+      <created>1697868079880</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1697868079880</updated>
+    </task>
+    <task id="LOCAL-00022" summary="tree">
+      <option name="closed" value="true" />
+      <created>1697969684317</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1697969684317</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Hashing">
+      <option name="closed" value="true" />
+      <created>1698295462645</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1698295462645</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Hashing">
+      <option name="closed" value="true" />
+      <created>1698521579339</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1698521579339</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -358,7 +389,8 @@
     <MESSAGE value="LinkedList" />
     <MESSAGE value="Tree" />
     <MESSAGE value="tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="tree" />
+    <MESSAGE value="Hashing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hashing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
