@@ -1,4 +1,4 @@
-package KunalDSAsheet;
+package KunalDSAsheet.BinarySearchQuestions;
 
 public class Sqrtx {
 
