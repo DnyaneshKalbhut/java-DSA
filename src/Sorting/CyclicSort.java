@@ -6,7 +6,7 @@ import static Sorting.Swap.swap;
 
 public class CyclicSort {
     public static void main(String[] args) {
-        int [] arr = {5,4,3,2,1};
+        int [] arr = {5,4,3,2,1,1};
         CyclicSort(arr);
         System.out.println(Arrays.toString(arr));
 

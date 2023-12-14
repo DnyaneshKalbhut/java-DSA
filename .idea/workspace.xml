@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71eb0e64-40da-4a91-b57b-0d963edd0088" name="Changes" comment="Hashing" />
+    <list default="true" id="71eb0e64-40da-4a91-b57b-0d963edd0088" name="Changes" comment="Dsa Questions">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +50,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/BinaryTree/Main.java" root0="SKIP_INSPECTION" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -63,7 +69,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Asus/IdeaProjects/DSA Revision/src/Main.java&quot;
   }
@@ -73,13 +79,13 @@
       <recent name="BinaryTree.BFS" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LL">
-    <configuration name="LL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Linkedlist.LL" />
+  <component name="RunManager" selected="Application.InsertionSort">
+    <configuration name="CyclicSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.CyclicSort" />
       <module name="DSA Revision" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Linkedlist.*" />
+          <option name="PATTERN" value="Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinaryTree.Main" />
+    <configuration name="Factors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MAthForDSA.Factors" />
       <module name="DSA Revision" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BinaryTree.BFS.*" />
+          <option name="PATTERN" value="MAthForDSA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StackandQueue.QueueMain" />
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.InsertionSort" />
       <module name="DSA Revision" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StackandQueue.*" />
+          <option name="PATTERN" value="Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StackandQueue.StackMain" />
+    <configuration name="Sqrt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MAthForDSA.Sqrt" />
       <module name="DSA Revision" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StackandQueue.*" />
+          <option name="PATTERN" value="MAthForDSA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StackandQueue.TwoStack" />
+    <configuration name="isPrime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MAthForDSA.isPrime" />
       <module name="DSA Revision" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StackandQueue.*" />
+          <option name="PATTERN" value="MAthForDSA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,10 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TwoStack" />
-        <item itemvalue="Application.QueueMain" />
-        <item itemvalue="Application.StackMain" />
-        <item itemvalue="Application.LL" />
+        <item itemvalue="Application.InsertionSort" />
+        <item itemvalue="Application.CyclicSort" />
+        <item itemvalue="Application.Factors" />
+        <item itemvalue="Application.Sqrt" />
+        <item itemvalue="Application.isPrime" />
       </list>
     </recent_temporary>
   </component>
@@ -349,17 +356,119 @@
       <option name="project" value="LOCAL" />
       <updated>1698521579339</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Bit Manupulation">
+      <option name="closed" value="true" />
+      <created>1699074726280</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1699074726280</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Maths">
+      <option name="closed" value="true" />
+      <created>1699207585364</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1699207585364</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Maths">
+      <option name="closed" value="true" />
+      <created>1699207992445</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1699207992445</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Questions">
+      <option name="closed" value="true" />
+      <created>1702314190296</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1702314190296</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Array Questions">
+      <option name="closed" value="true" />
+      <created>1702314980908</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1702314980908</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Array Questions">
+      <option name="closed" value="true" />
+      <created>1702315033489</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1702315033489</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Array Questions">
+      <option name="closed" value="true" />
+      <created>1702315569102</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1702315569102</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Array Questions">
+      <option name="closed" value="true" />
+      <created>1702401885026</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1702401885026</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Binary Questions">
+      <option name="closed" value="true" />
+      <created>1702401901273</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1702401901273</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Sorting Questions">
+      <option name="closed" value="true" />
+      <created>1702487794680</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1702487794680</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Sorting Questions">
+      <option name="closed" value="true" />
+      <created>1702487846485</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1702487846485</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Dsa Questions">
+      <option name="closed" value="true" />
+      <created>1702576398268</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1702576398268</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="OPEN_GENERIC_TABS">
       <map>
+        <entry key="2f7ccf27-4fc4-4bc2-a4f6-33c238db9750" value="TOOL_WINDOW" />
         <entry key="767e84ec-6f09-4ba3-83b0-6ed24cdccf9a" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="TAB_STATES">
       <map>
+        <entry key="2f7ccf27-4fc4-4bc2-a4f6-33c238db9750">
+          <value>
+            <State />
+          </value>
+        </entry>
         <entry key="767e84ec-6f09-4ba3-83b0-6ed24cdccf9a">
           <value>
             <State />
@@ -385,7 +494,14 @@
     <MESSAGE value="Tree" />
     <MESSAGE value="tree" />
     <MESSAGE value="Hashing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hashing" />
+    <MESSAGE value="Bit Manupulation" />
+    <MESSAGE value="Maths" />
+    <MESSAGE value="Questions" />
+    <MESSAGE value="Array Questions" />
+    <MESSAGE value="Binary Questions" />
+    <MESSAGE value="Sorting Questions" />
+    <MESSAGE value="Dsa Questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dsa Questions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
