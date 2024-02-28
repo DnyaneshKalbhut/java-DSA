@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71eb0e64-40da-4a91-b57b-0d963edd0088" name="Changes" comment="" />
+    <list default="true" id="71eb0e64-40da-4a91-b57b-0d963edd0088" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/KunalDSAsheet/Spcl/Average.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KunalDSAsheet/Spcl/ConcentVowels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KunalDSAsheet/Spcl/EvenOdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KunalDSAsheet/Spcl/Max.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KunalDSAsheet/Spcl/Sorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KunalDSAsheet/Spcl/StringMatching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KunalDSAsheet/Spcl/reverseNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KunalDSAsheet/Spcl/reverseStr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,13 +86,13 @@
       <recent name="BinaryTree.BFS" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InsertionSort">
-    <configuration name="CyclicSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.CyclicSort" />
+  <component name="RunManager" selected="Application.Max">
+    <configuration name="Average" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KunalDSAsheet.Spcl.Average" />
       <module name="DSA Revision" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sorting.*" />
+          <option name="PATTERN" value="KunalDSAsheet.Spcl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Factors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MAthForDSA.Factors" />
+    <configuration name="ConcentVowels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KunalDSAsheet.Spcl.ConcentVowels" />
       <module name="DSA Revision" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MAthForDSA.*" />
+          <option name="PATTERN" value="KunalDSAsheet.Spcl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.InsertionSort" />
+    <configuration name="EvenOdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KunalDSAsheet.Spcl.EvenOdd" />
       <module name="DSA Revision" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sorting.*" />
+          <option name="PATTERN" value="KunalDSAsheet.Spcl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sqrt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MAthForDSA.Sqrt" />
+    <configuration name="Max" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KunalDSAsheet.Spcl.Max" />
       <module name="DSA Revision" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MAthForDSA.*" />
+          <option name="PATTERN" value="KunalDSAsheet.Spcl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="isPrime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MAthForDSA.isPrime" />
+    <configuration name="Sorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KunalDSAsheet.Spcl.Sorting" />
       <module name="DSA Revision" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MAthForDSA.*" />
+          <option name="PATTERN" value="KunalDSAsheet.Spcl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InsertionSort" />
-        <item itemvalue="Application.CyclicSort" />
-        <item itemvalue="Application.Factors" />
-        <item itemvalue="Application.Sqrt" />
-        <item itemvalue="Application.isPrime" />
+        <item itemvalue="Application.Max" />
+        <item itemvalue="Application.ConcentVowels" />
+        <item itemvalue="Application.Sorting" />
+        <item itemvalue="Application.EvenOdd" />
+        <item itemvalue="Application.Average" />
       </list>
     </recent_temporary>
   </component>
@@ -481,7 +491,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703441601359</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Dsa Questions">
+      <option name="closed" value="true" />
+      <created>1703611800243</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1703611800244</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
