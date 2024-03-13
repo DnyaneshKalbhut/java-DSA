@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71eb0e64-40da-4a91-b57b-0d963edd0088" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/KunalDSAsheet/Spcl/Revision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KunalDSAsheet/Spcl/Revision2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KunalDSAsheet/Spcl/isArmstrong.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KunalDSAsheet/Spcl/StringMatching.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KunalDSAsheet/Spcl/Revision2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KunalDSAsheet/Spcl/Revision2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -503,7 +500,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709144523939</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Dsa Questions">
+      <option name="closed" value="true" />
+      <created>1710245157967</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1710245157967</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
